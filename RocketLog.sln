@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketLog", "RocketLog\RocketLog.csproj", "{983F76C2-65F6-4330-9A9B-37FA84E0E86F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{983F76C2-65F6-4330-9A9B-37FA84E0E86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983F76C2-65F6-4330-9A9B-37FA84E0E86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983F76C2-65F6-4330-9A9B-37FA84E0E86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983F76C2-65F6-4330-9A9B-37FA84E0E86F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D889A7DC-2B3C-4CA0-AD2E-3F03C47DCCCC}
+	EndGlobalSection
+EndGlobal
