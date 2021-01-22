@@ -36,13 +36,7 @@ namespace RocketLog
         {
             Harmony.UnpatchAll("RocketLog");
         }
-
-
-        void temp()
-        {
-
-            Rocket.Unturned.U.Events.OnPlayerConnected
-        }
+     
         public void InitLogger()
         {
             SeriLogger.Information("Patching Log Methods...");
