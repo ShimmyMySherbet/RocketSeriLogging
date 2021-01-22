@@ -5,6 +5,8 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using HarmonyLib;
+using Rocket.Unturned.Events;
+using Rocket.Unturned.Player;
 using SDG.Framework.Modules;
 using SDG.Unturned;
 using Serilog;
@@ -35,6 +37,12 @@ namespace RocketLog
             Harmony.UnpatchAll("RocketLog");
         }
 
+
+        void temp()
+        {
+
+            Rocket.Unturned.U.Events.OnPlayerConnected
+        }
         public void InitLogger()
         {
             SeriLogger.Information("Patching Log Methods...");
